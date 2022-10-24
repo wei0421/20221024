@@ -9,7 +9,7 @@ function draw() {
   strokeWeight(1) //邊框粗細
   for(var i=0;i <windowWidth/50;i++) {
   for(var j=0;j <windowHeight/50;j++) {
-   stroke(255,0,0)
+   stroke(255,255,0)
    ellipse(25+(i*50),25+(j*50),mouseX/5)
    stroke(255,255,255)
    rect(0+(i*50),0+(j*50),mouseX/5)
